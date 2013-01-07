@@ -74,6 +74,6 @@ public class MainActivity extends Activity {
 	// Somente para DEBUG
 	private void playVideo() {
 		Log.d("DEBUG", ">>>>>>>>>>>>>>>>"+ Environment.getExternalStorageDirectory().getPath());
-		playVideo("/mnt/extSdCard/test.mp4");
+		playVideo("/mnt/usbhost1/video.mp4");
 	}
 }
